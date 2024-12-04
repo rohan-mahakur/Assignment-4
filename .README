@@ -1,0 +1,32 @@
+
+# Testcase File Format
+## 1. Lib Files 
+Line 1: n - ```<number of books>```  
+2n lines - {  
+```<book_title>```  
+```<space separated words>```  
+}  
+
+```<num_ops_count>```  
+num_ops_count lines - {  
+```<query_book_title>```  
+}  
+
+```<num_ops_distinct>```  
+num_ops_distinct lines - {  
+```<query_book_title>```  
+}  
+
+```<num_ops_search>```  
+num_ops_distinct lines - {  
+```<query_book_title>```  
+}
+
+## 2. Hash
+```z table_size```
+```n```
+```n length string```
+
+## 3. Rehash
+```z, initial_table_size, z2, c2```
+```space separated list of words```
